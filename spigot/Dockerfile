@@ -1,4 +1,4 @@
-#Make Ansible rpm on Fedora 21
+#Jenkins made to build spigot
 FROM jenkins:latest
 MAINTAINER Jonathan Mainguy jon@soh.re
 ADD build.tar.gz /var/jenkins_home/
