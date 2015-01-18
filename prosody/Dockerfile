@@ -1,4 +1,4 @@
-#Sinatra on Centos
+#Prosody on Centos
 FROM centos:latest
 MAINTAINER Jonathan Mainguy jon@soh.re
 ADD prosody /opt/prosody
