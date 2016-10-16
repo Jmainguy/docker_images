@@ -1,4 +1,6 @@
 #!/bin/bash
+export HOME=$(pwd)
+git pull
 sed -i "s/MYSQL_USER/${MYSQL_USER}/g" settings.json
 sed -i "s/MYSQL_PASSWORD/${MYSQL_PASSWORD}/g" settings.json
 sed -i "s/MYSQL_HOST/${MYSQL_HOST}/g" settings.json

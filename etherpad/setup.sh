@@ -1,8 +1,8 @@
 #!/bin/bash
-useradd etherpad
 yum install -y epel-release
 yum install -y make gcc-c++ nodejs git
-cd /home/etherpad
+cd /opt/
 git clone https://github.com/ether/etherpad-lite
-chown -R etherpad:etherpad /home/etherpad
 yum clean all
+find /opt -type d -exec chmod 777 {} \;
+useradd etherpad
